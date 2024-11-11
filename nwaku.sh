@@ -19,9 +19,9 @@ show_banner() {
     echo '╚═╝  ╚═══╝ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝     ╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚══════╝'
     echo -e "${NC}"
     echo -e "${CYAN}===========================================================================${NC}"
-    echo -e "${PURPLE}                     Auto Installation Nwaku${NC}"
-    echo -e "${PURPLE}                     Author: Galkurta${NC}"
-    echo -e "${PURPLE}                     Github: https://github.com/Galkurta${NC}"
+    echo -e "${PURPLE}                     Auto Installation NWAKU${NC}"
+    echo -e "${PURPLE}                       Author: Nofan Rambe${NC}"
+    echo -e "${PURPLE}                        Github: Rambeboy${NC}"
     echo -e "${CYAN}===========================================================================${NC}"
     echo
 }
