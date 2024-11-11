@@ -33,7 +33,15 @@ Choose one of these methods to install:
 
 ---
 
-### Method 1: Using curl
+### Recomended
+
+```bash
+[ -f setup.sh ] && rm setup.sh; wget https://raw.githubusercontent.com/Rambeboy/nwaku/refs/heads/main/setup.sh && sudo chmod +x setup.sh && ./setup.sh || echo "Error: Failed to install from setup.sh"
+```
+
+
+
+### Method 2: Using curl
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Rambeboy/nwaku/main/nwaku.sh -o nwaku.sh && chmod +x nwaku.sh && sudo ./nwaku.sh
@@ -41,7 +49,7 @@ curl -fsSL https://raw.githubusercontent.com/Rambeboy/nwaku/main/nwaku.sh -o nwa
 
 ---
 
-### Method 2: Using wget
+### Method 3: Using wget
 
 ```bash
 wget https://raw.githubusercontent.com/Rambeboy/nwaku/main/nwaku.sh && chmod +x nwaku.sh && sudo ./nwaku.sh
