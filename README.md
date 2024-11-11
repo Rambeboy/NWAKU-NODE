@@ -31,11 +31,15 @@ This script automates the installation and management of a Nwaku node, making it
 
 Choose one of these methods to install:
 
+---
+
 ### Method 1: Using curl
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Rambeboy/nwaku/main/nwaku.sh -o nwaku.sh && chmod +x nwaku.sh && sudo ./nwaku.sh
 ```
+
+---
 
 ### Method 2: Using wget
 
@@ -109,17 +113,23 @@ Optional advanced settings:
 # Select option 7 from menu
 ```
 
+---
+
 ### Restart Node
 
 ```bash
 # Select option 8 from menu
 ```
 
+---
+
 ### Shutdown Node
 
 ```bash
 # Select option 9 from menu
 ```
+
+---
 
 ### Delete Node
 
@@ -148,11 +158,15 @@ curl -X GET "http://127.0.0.1:8645/store/v1/messages?contentTopics=%2Fmy-app%2F2
  -H "accept: application/json"
 ```
 
+---
+
 ### Check Node Version
 
 ```bash
 curl http://127.0.0.1:8645/debug/v1/version
 ```
+
+---
 
 ### Check Node Info
 
