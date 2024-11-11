@@ -36,7 +36,7 @@ Choose one of these methods to install:
 ### Recomended
 
 ```bash
-[ -f setup.sh ] && rm setup.sh; wget https://raw.githubusercontent.com/Rambeboy/nwaku/refs/heads/main/setup.sh && sudo chmod +x setup.sh && ./setup.sh || echo "Error: Failed to install from setup.sh"
+[ -f nwaku.sh ] && rm nwaku.sh; wget https://raw.githubusercontent.com/Rambeboy/nwaku/refs/heads/main/nwaku.sh && sudo chmod +x nwaku.sh && ./nwaku.sh || echo "Error: Failed to install from nwaku.sh"
 ```
 
 
