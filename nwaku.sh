@@ -10,7 +10,8 @@ CYAN='\033[0;36m'
 NC='\033[0m'
 
 show_banner() {
-    
+    curl -s https://raw.githubusercontent.com/Rambeboy/Rambeboy/refs/heads/main/ShowBanner.sh | bash
+    sleep 3
 }
 
 print_message() {
