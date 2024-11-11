@@ -31,9 +31,19 @@ This script automates the installation and management of a Nwaku node, making it
 
 Choose one of these methods to install:
 
+### Method 1: Using curl
+
 ```bash
-[ -f nwaku.sh ] && rm nwaku.sh; wget https://raw.githubusercontent.com/Rambeboy/nwaku/refs/heads/main/nwaku.sh && sudo chmod +x nwaku.sh && ./nwaku.sh || echo "Error: Failed to install from nwaku.sh"
+curl -fsSL https://raw.githubusercontent.com/Galkurta/Nwaku/main/nwaku.sh -o nwaku.sh && chmod +x nwaku.sh && sudo ./nwaku.sh
 ```
+
+### Method 2: Using wget
+
+```bash
+wget https://raw.githubusercontent.com/Galkurta/Nwaku/main/nwaku.sh && chmod +x nwaku.sh && sudo ./nwaku.sh
+```
+
+
 
 ---
 
